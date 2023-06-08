@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contato</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <body>
+        <div class="bg-fundo"></div>
+    </body>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Agenda de Contatos</h1>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+                <label for="phone">Telefone:</label>
+                <input type="text" id="phone" required>
+                <label for="email">e-mail:</label>
+                <input type="text" id="email" required>
+
+                <button type="submit">Adicionar Contato</button>
+            </form>
+            <table id="contactTable">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
